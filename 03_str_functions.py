@@ -1,0 +1,13 @@
+name = "Vikash the trillionaire"
+print(len(name))
+print(name.endswith("aire"))
+print(name.startswith("vika"))
+print(name.capitalize())
+# print(name.small())
+print(name.lower())
+print(name.upper())
+print(name.title())
+print("\n")
+print(name.find("the"))
+print(name.lstrip())
+print(name.rstrip())
