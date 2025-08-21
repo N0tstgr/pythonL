@@ -1,11 +1,13 @@
-a = int(input("Enter the value of the no. : "))
-b = int(input("Enter the value of the no. : "))
-c = int(input("Enter the value of the no. : "))
-if(a >b and a>c):
-    print("this is the greatest no.",a)
-elif(b>c and b>a):
-    print("this is the greatest number .",b)
-elif(c>a and c>b):
-    print("this is the greatest number . ",c)
-   
+def greatest(a, b, c):
+    if(a >b and a>c):
+        return a
+    elif(b >a and b>c):
+        return b
+    elif(c >b and c>a):
+        return c
+    
+a = 4
+b = 5
+c = 3
 
+print(greatest(a, b ,c))
