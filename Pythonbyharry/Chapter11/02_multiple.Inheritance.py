@@ -2,7 +2,7 @@ class Employee:
     company = "ITC"
     name = "Default name"
     def show(self):
-        print(f"The name is {self.name} and the salary is {self.company}")
+        print(f"The name is {self.name} and the company is {self.company}")
 
 class Coder:
     language = "python"
@@ -26,5 +26,5 @@ a = Employee()
 b = Programmer()
 
 b.show()
-b.printLanguages()
+b.printLanguage()
 b.showLanguage()
