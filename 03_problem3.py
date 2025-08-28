@@ -1,11 +1,14 @@
 class Employee:
-    def __init__(self, name,  salary):
-        self.name = name
-        self.salary = salary
+    salary = 344
+    inrement = 90
+    def salaryAfterIncrement(self):
+        return (self.salary + self.salary *(self.increment/100))
     
+    @increment.setter
+    def increment(self, salary):
+        self.increment = newsalary = oldsalary * (1 + increment/100)
 
 
 
-e = Employee("zordan", 400000)
-e.salary = 289
-e.increment = 90
+e = Employee()
+print(e.salaryAfterIncrement)
