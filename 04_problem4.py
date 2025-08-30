@@ -8,7 +8,7 @@ class Complex :
     
     def __mul__(self, c2):
         real_part = self.r * c2.r - self.i * c2.i
-        img_part = self.r * c2.i + self.i * c2.i
+        img_part = self.r * c2.i + self.i * c2.r
         return Complex(real_part, img_part)
 
     
@@ -21,4 +21,4 @@ print(c1 + c2)
 print(c1*c2) 
 
 
-    
+    ###Not understand 
